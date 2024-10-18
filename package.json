@@ -1,0 +1,23 @@
+{
+  "name": "04---ecommerce-back-end",
+  "version": "1.0.0",
+  "description": "backend ecommerce bootcamp seba",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "eslint . && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seba",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
+  }
+}
